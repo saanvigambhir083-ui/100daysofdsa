@@ -24,8 +24,8 @@ for (int i=0;i<26;i++)
   if (freq[i]==maxFreq) 
   {
    maxCount++;
-   }
   }
+ }
 int result=(maxFreq-1)*(n+1)+maxCount;
 return (result>tasksSize)?result:tasksSize;   
 }
