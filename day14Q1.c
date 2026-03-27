@@ -15,7 +15,7 @@ void main()
        scanf("%d", &matrix[i][j]);
       }
     }
-    for(int i=0; i<n;i++) 
+   for(int i=0; i<n;i++) 
     {
       for(int j=0;j<n;j++) 
       {
@@ -25,7 +25,7 @@ void main()
         {
          f=0;
          break;
-        }
+         }
        } 
        else 
        {
