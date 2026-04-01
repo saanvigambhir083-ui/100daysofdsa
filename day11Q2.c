@@ -8,7 +8,7 @@ int** transpose(int** matrix, int matrixSize, int* matrixColSize, int* returnSiz
  *returnColumnSizes = (int*)malloc(cols * sizeof(int));
  for(int i = 0; i < cols; i++) 
  {
-  (*returnColumnSizes)[i] = rows;
+ (*returnColumnSizes)[i] = rows;
   }
  int** result = (int**)malloc(cols * sizeof(int*));
  for(int i = 0; i < cols; i++) 
@@ -19,8 +19,8 @@ int** transpose(int** matrix, int matrixSize, int* matrixColSize, int* returnSiz
  {
  for(int j = 0; j < cols; j++) 
  {
-     result[j][i] = matrix[i][j];
-    }
+  result[j][i] = matrix[i][j];
  }
+}
  return result;
 }
